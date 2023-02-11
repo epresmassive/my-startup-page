@@ -24,10 +24,13 @@ body{
 .nav-link:active{
 	color: rgb(228, 224, 224);
 }
+.row.gap{
+	height: 300px;
+}
 
 header{
 	display: flex;
-	height: 600px;
+
 }
 
 #headerTitle{
@@ -36,19 +39,20 @@ header{
 	font-size: 2em;
 	align-self: center;
 	border-bottom: 1px solid rgb(228, 224, 224);
-	position: relative;
 	text-transform: uppercase;
 }
 
 #headerText{
 	color: rgb(228, 224, 224);
-	column-width: auto;
-	position: absolute;
-	top: 400px;
 	font-weight: 300;
 	text-align: justify;
+	width: 100%;
 }
 
-
+#signup{
+	background-color:rgb(158, 196, 228);
+	color: rgb(243, 237, 237);
+	border-color: rgb(158, 196, 228);
+}
 
 
