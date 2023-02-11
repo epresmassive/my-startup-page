@@ -3,7 +3,6 @@ body{
 
 	font-family: 'Barlow Condensed', sans-serif;
 	font-weight: bold;
-	font-size: 2rem;
 	min-height: 100%;
 }
 
@@ -36,7 +35,7 @@ header{
 #headerTitle{
 	color: rgb(228, 224, 224);
 	font-weight: 600;
-	font-size: 2em;
+	font-size: 3rem;
 	align-self: center;
 	border-bottom: 1px solid rgb(228, 224, 224);
 	text-transform: uppercase;
@@ -45,6 +44,7 @@ header{
 #headerText{
 	color: rgb(228, 224, 224);
 	font-weight: 300;
+	font-size: 2rem;
 	text-align: justify;
 	width: 100%;
 }
@@ -53,6 +53,16 @@ header{
 	background-color:rgb(158, 196, 228);
 	color: rgb(243, 237, 237);
 	border-color: rgb(158, 196, 228);
+}
+
+.row.gap2{
+	height: 200px;
+}
+
+footer{
+	color: rgb(228, 224, 224);
+	display: flex;
+	justify-content: center;
 }
 
 
