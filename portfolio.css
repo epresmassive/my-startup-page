@@ -1,0 +1,110 @@
+body{
+	background-image: linear-gradient(to right, rgb(177, 66, 97), rgb(152, 250, 203));
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: bold;
+	min-height: 100%;
+	margin: 10px;
+}
+
+#zone0{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    padding-right: 20px;
+    color: rgb(0, 0, 0, .5);
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+  } 
+  
+li{
+    padding: 10px;
+}
+
+.push{
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0, .5);;
+}
+
+li:link{
+	color: rgb(0, 0, 0, .5);
+}
+
+li:visited{
+	color: rgb(0, 0, 0, 0.5);
+}
+
+li:hover{
+	color: rgb(0, 0, 0, .5);
+    transition: all 2s;
+	transform: scale(1.2);
+}
+
+li:active{
+	color: rgb(0, 0, 0, .5);
+}
+
+.zone1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: rgb(0, 0, 0, .5);
+}
+
+h1{
+    border-bottom: 1px solid rgb(0, 0, 0, .5);
+    
+}
+
+.gridHugger{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.zone2{
+    /*individual card's settings*/
+    background-color: rgb(255, 255, 255, .5);
+}
+
+img{
+    width: 100%;
+    opacity: 0.7;
+}
+
+
+/* Tooltip container */
+.box {
+    position: relative;
+    display: inline-block;
+  }
+  
+/* Tooltip text */
+.box .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: rgb(255, 255, 255, .5);
+    color: rgb(0, 0, 0, .5);
+    text-align: center;
+    padding: 5px 0;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+  }
+  
+/* Show the tooltip text when you mouse over the tooltip container */
+.box:hover .tooltiptext {
+    visibility: visible;
+  }
+
+footer{
+    text-align: center;
+  }

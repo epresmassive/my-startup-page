@@ -1,11 +1,18 @@
 body{
-	background-image: linear-gradient(to right, rgb(212, 187, 219), rgb(158, 196, 228));
+	background-image: linear-gradient(to right, rgb(255, 128, 128), rgb(128, 128, 192));
 
 	font-family: 'Barlow Condensed', sans-serif;
 	font-weight: bold;
 	min-height: 100%;
+	margin: 10px;
 }
 
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+  } 
+  
 .nav-link{
 	color: rgb(228, 224, 224);
 }
@@ -64,5 +71,3 @@ footer{
 	display: flex;
 	justify-content: center;
 }
-
-
