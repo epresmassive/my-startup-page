@@ -4,9 +4,58 @@ body{
 	font-family: 'Barlow Condensed', sans-serif;
 	font-weight: bold;
 	min-height: 100%;
-	margin: 10px;
+	/*margin: 10px;*/
 }
 
+#zone0{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    padding-right: 20px;
+    color: rgb(0, 0, 0, .5);
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+  } 
+  
+li{
+    padding: 10px;
+}
+
+.push{
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+	color: rgb(228, 224, 224);
+}
+
+li:link{
+	color: rgb(228, 224, 224);
+}
+
+a:visited{
+	color: rgb(206, 233, 255);
+}
+
+li:hover{
+	color: rgb(228, 224, 224);
+    transition: all 2s;
+	transform: scale(1.2);
+}
+
+a:active{
+	color: rgb(228, 224, 224);
+}
+
+
+
+/* The nav before*/
+/*
 .sticky {
 	position: fixed;
 	top: 0;
@@ -30,6 +79,9 @@ body{
 .nav-link:active{
 	color: rgb(228, 224, 224);
 }
+*/
+
+
 .row.gap{
 	height: 300px;
 }
