@@ -53,7 +53,7 @@ li:active{
 
 .zone1{
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     height: 40vh;
     color: rgb(0, 0, 0, .5);
@@ -65,7 +65,7 @@ h1{
 }
 
 #h1Text{
-    align-self: baseline;
+    align-self: center;
 }
 
 .gridHugger{
